@@ -14,6 +14,14 @@ This API is basicly a CURL to create names. It also have a extra method to auto-
 | `/api/names/:id` | `UPDATE` | Updates the name that matches with the id provided with the body of the request |
 | `/api/names/:id` | `DELETE` | Deletes the name that matches with the id provided |
 
+### Example: Body of the request
+
+```json
+{
+    "name": "Miguh Ruiz"
+}
+```
+
 ## Tools and modules used
 
 * [`MongoDB`](https://www.mongodb.com/) as the database.
