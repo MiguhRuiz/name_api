@@ -12,7 +12,7 @@ module.exports = {
             })
     },
     getName: (req, res) => {
-        Name.find(req.params.id)
+        Name.findById(req.params.id)
             .catch(err => {
                 res.status(500)
                 res.send(err)
