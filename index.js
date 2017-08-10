@@ -12,7 +12,7 @@ mongoose.connect('mongodb://localhost:27017/names_api')
 app.use(bodyParser())
 
 app.get('/', (req, res) => {
-    res.send('Hello World')
+    res.json({code: 200, message: 'Welcome to the API'})
 })
 
 // Name API Routes
