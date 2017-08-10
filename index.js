@@ -19,6 +19,7 @@ app.get('/', (req, res) => {
 app.get('/api/names', nameAPI.getNames)
 app.get('/api/names/:id', nameAPI.getName)
 app.post('/api/names', nameAPI.postName)
+app.post('/api/names/auto', nameAPI.postAutoRandom)
 app.put('/api/names/:id', nameAPI.updateName)
 app.delete('/api/names/:id', nameAPI.deleteName)
 
