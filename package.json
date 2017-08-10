@@ -1,0 +1,20 @@
+{
+  "name": "name_api",
+  "version": "1.0.0",
+  "description": "Random Name API",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "url": "git@github.com:MiguhRuiz/name_api.git",
+    "type": "git"
+  },
+  "author": "Miguh Ruiz <m@miguhruiz.xyz> (https://miguhruiz.xyz/)",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4",
+    "mongoose": "^4.11.6"
+  }
+}
